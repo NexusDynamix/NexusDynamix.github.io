@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2c7f5e, #195c92);
+}
+
+.contenedor-login {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.formulario-login {
+    text-align: center;
+}
+
+.icono-usuario img {
+    width: 80px;
+    height: 80px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.grupo-input {
+    width: calc(100% - 22px);
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.grupo-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.grupo-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recordar-me {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.recordar-me input {
+    margin-right: 5px;
+}
+
+.login-social {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.icono-social img {
+    width: 50px;
+    height: 50px;
+}
+
+.boton-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enlaces-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.enlaces-footer a {
+    color: #195c92;
+    text-decoration: none;
+}
+
+.enlaces-footer a:hover {
+    text-decoration: underline;
+}

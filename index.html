@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/estilo1.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoSens</title>
+</head>
+<body>
+<nav class="topheader">
+    <ul class="menu-horizontal">
+      <a href="" class="logo"><img  height="40"  width="50" src="images/img/upclogo.png" alt="Logo de lapagimna web"></a>
+        <li><a href ="#inicio">Sobre Nosotros</a></li>
+        <li>
+            <a href="#servicios">Servicios</a>
+        </li>
+        <li><a href="html/contacto.html" >Contacto</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#emergencias">Emergencias</a></li>
+        <li><a href="html/login.html" class="login" target="_blank">Iniciar Sesión</a></li>
+
+    </ul>
+</nav>
+<div class="inicio">
+  <h1 class="etiqueta">Ciudad de Puno</h1>
+  <div class="ContainerMapa"><br><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15352.87574057658!2d-70.03083576456882!3d-15.84508643206052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d6985f4e74135%3A0x1e341dd8f24d32cf!2sPuno!5e0!3m2!1ses-419!2spe!4v1717714984778!5m2!1ses-419!2spe" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <h2><center>Problema de salud respiratoria en la ciudad de Puno</center></h2>
+  <div class="ContainerI">
+  <div class="subContainerI-2"> <img class="imagen_uno" src="images/img/img.jpg" alt="imagen de puno"></div>
+  <div class="subContainerI-1"><p>Según reportes de la Organización Mundial de la Salud (OMS), las IRAS ocasionan la muerte de 4,3 millones de niños menores de 5 años
+    representando así el 30% del total de defunciones anuales de niños de este grupo edad.
+  </p></div>
+  </div>
+</div>
+<div id="servicios">
+  <div class="servicios-section">
+    <h2 class="servicios-title">Servicios</h2>
+    <p class="servicios-description">
+        Nosotros ofrecemos el servicio de brindar cajas de medición a nuestros usuarios del departamento de Puno, para que conozcan el tiempo climático de su comunidad.
+    </p>
+    <p class="servicios-additional">
+        Estas cajas de medición están equipadas con la última tecnología para proporcionar datos precisos y en tiempo real sobre la calidad del aire, la temperatura, la humedad y otros factores ambientales. Nuestro objetivo es ayudar a los ciudadanos a estar mejor informados y a tomar decisiones basadas en datos sobre su salud y bienestar.
+    </p>
+    <p class="servicios-additional">
+        Además, ofrecemos soporte técnico y asistencia para la instalación y el mantenimiento de estas cajas de medición. Nos comprometemos a garantizar que cada usuario pueda acceder fácilmente a los datos recopilados y comprender la información proporcionada.
+    </p>
+  <div class="tarjetas">
+    <div class="card-container">
+      <div class="card bueno">
+          <div class="icon">😊</div>
+          <div class="info">
+              <h2>Ciudad de Puno</h2>
+              <p class="status">Bueno</p>
+              <p class="value">44</p>
+              <p class="type">PM2.5</p>
+          </div>
+          <button class="next-btn" onclick="showNextCard('bueno')">Siguiente</button>
+      </div>
+      <div class="card calor">
+          <div class="icon">🌡️</div>
+          <div class="info">
+              <h2>Ciudad de Puno</h2>
+              <p class="status">Calor</p>
+              <p class="value">38°</p>
+              <p class="temp">100.4°F / 242.55 K</p>
+          </div>
+          <button class="next-btn" onclick="showNextCard('calor')">Siguiente</button>
+      </div>
+      <div class="card nublado">
+          <div class="icon">☁️</div>
+          <div class="info">
+              <h2>Ciudad de Puno</h2>
+              <p class="status">Nublado</p>
+          </div>
+          <button class="next-btn" onclick="showNextCard('nublado')">Siguiente</button>
+      </div>
+  </div>
+  </div>
+</div>
+<div id="noticias">
+  <div class="news-section">
+    <h2 class="news-title">Noticias</h2>
+    <div class="news-container">
+        <div class="news-card">
+            <img src="/images/img/noticia1.jpeg" alt="Noticia 1" class="news-image">
+            <div class="news-content">
+                <h3 class="news-heading">Frio en Puno</h3>
+                <p class="news-description">Al finalizar la temporada de lluvias: las heladas meteorológicas generalmente inician en abril y terminan en setiembre.</p>
+            </div>
+        </div>
+        <div class="news-card">
+            <img src="/images/img/noticia2.jpeg" alt="Noticia 2" class="news-image">
+            <div class="news-content">
+                <h3 class="news-heading">Niños aguantando oleajes de frío</h3>
+                <p class="news-description">Una ola de frío, a veces conocida como ola de frío o congelación profunda</p>
+            </div>
+        </div>
+        <div class="news-card">
+            <img src="/images/img/noticia5.jpg" alt="Noticia 3" class="news-image">
+            <div class="news-content">
+                <h3 class="news-heading">Título de la Noticia 3</h3>
+                <p class="news-description">Los turistas nacionales y extranjeros que visiten el departamento de Puno en febrero... VER MÁS</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="emergencias">
+  <div class="emergencias-section">
+    <h2 class="emergencias-title">Emergencias</h2>
+    <p class="emergencias-description">
+        En caso de emergencia, puede ponerse en contacto con los servicios de emergencia de la ciudad de Puno utilizando los siguientes números de teléfono. Estamos aquí para ayudarlo 24/7.
+    </p>
+    <div class="emergencias-container">
+        <div class="emergencia-card">
+            <img src="/images/img/logopnp.png" alt="">
+            <h3>Policía</h3>
+            <p>Teléfono: <a href="tel:+51987654321">368900</a></p>
+            <button class="emergencia-btn" onclick="makeCall('+51987654321')">Llamar a la Policía</button>
+        </div>
+        <div class="emergencia-card">
+            <img src="/images/img/logobom.jpg" alt="">
+            <h3>Bomberos</h3>
+            <p>Teléfono: <a href="tel:+51987654322">366333 – 363489</a></p>
+            <button class="emergencia-btn" onclick="makeCall('+51987654322')">Llamar a los Bomberos</button>
+        </div>
+        <div class="emergencia-card">
+            <img src="/images/img/essladulogo.jpeg" alt="">
+            <h3>Ambulancia</h3>
+            <p>Teléfono: <a href="tel:+51987654323">366333 – 363489</a></p>
+            <button class="emergencia-btn" onclick="makeCall('+51987654323')">Llamar a la Ambulancia</button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="container_sn">
+  <ul class="banner_sn">
+    <li><img src="/images/rsicon/icons8-facebook-48.png" width= "32" height="32" alt="facebook_icon">
+    <p><a href="https://www.facebook.com" target="_blank">Dame un Like<br>Facebook</a></p></li>
+
+    <li><img src="/images/rsicon/icons8-instagram-48.png" width= "32" height="32" alt="instagram_icon">
+      <p><a href="https://www.instagram.com" target="_blank">Dame un Like<br>Instagram</a></p></li>
+
+    <li><img src="/images/rsicon/icons8-linkedin-48.png" width= "32" height="32" alt="linkedin_icon">
+      <p><a href="https://www.linkedin.com/" target="_blank">Dame un Like<br>LinkedIn</a></p></li>
+    
+    <li><img src="/images/rsicon/icons8-tiktok-48.png" width= "32" height="32" alt="tiktok_icon">
+      <p><a href="https://www.tiktok.com/" target="_blank">Dame un Like<br>TikTok</a></p></li>
+
+    <li><img src="/images/rsicon/icons8-whatsapp-48.png" width= "32" height="32" alt="tiktok_icon">
+      <p><a href="https://www.whatsapp.com/" target="_blank">Atencion 24/7<br>WhatsApp</a></p></li>
+  </ul>
+
+</div>
+<footer>
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Dirección: Puno, Perú</p>
+          <p>Teléfono: <a href="tel:+51987654321">+51 987 654 321</a></p>
+          <p>Email: <a href="mailto:info@puno.com">u222222@upc.edu.pe</a></p>
+      </div>
+      <div class="footer-section">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+              <li><a href="#noticias">Noticias</a></li>
+              <li><a href="#emergencias">Emergencias</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h3>Síguenos</h3>
+          <div class="social-links">
+              <a href="#"><img src="/images/Loginimg/icons8-facebook-48.png" alt="Facebook"></a>
+              <a href="#"><img src="/images/Loginimg/icons8-logo-de-google-48.png" alt="Twitter"></a>
+              <a href="#"><img src="/images/rsicon/icons8-instagram-48.png" alt="Instagram"></a>
+              <a href="#"><img src="/images/rsicon/icons8-linkedin-48.png" alt="LinkedIn"></a>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Universidad Peruana de Ciencias Aplicadas. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

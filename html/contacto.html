@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo2.css">
+    <title>Formlario de contacto</title>
+</head>
+<body>
+    <center><h1>Contactanos</h1></center>
+    <form>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="codus">DNI:</label><br>
+        <input type="text" id="codus" name="codus"><br><br>
+        <label for="correo">Correo:</label><br>
+        <input type="text" id="correo" name="correo"><br>
+        <p>Escoja el tipo de comunicación</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">WhatsApp</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Mensaje de Texto</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">Correo</label><br><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

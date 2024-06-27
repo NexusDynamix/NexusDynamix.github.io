@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="../css/stylesLogin.css">
+</head>
+<body>
+    <div class="contenedor-login">
+        <div class="formulario-login">
+            <div class="icono-usuario">
+                <img src="../images/Loginimg/icons8-usuario-de-género-neutro-48.png">
+            </div>
+            <h2>Inicio de Sesión</h2>
+            <form name="frm">
+                <div class="grupo-input">
+                    <label for="fname">Nombre de usuario *</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Ingrese su nombre de usuario" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="contrasena">Contraseña *</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required>
+                </div>
+                <div class="recordar-me">
+                    <input type="checkbox" id="recordar" name="recordar">
+                    <label for="recordar">Recuérdame</label>
+                </div>
+                <div class="login-social">
+                    <a href="https://www.facebook.com" class="icono-social"> <img src="../images/Loginimg/icons8-facebook-48.png" ></a>
+                    <a href="https://google.com" class="icono-social"><img src="../images/Loginimg/icons8-logo-de-google-48.png" ></a>
+                    <a href="https://www.apple.com/la/" class="icono-social"><img src="../images/Loginimg/icons8-mac-os-48.png" ></a>
+                </div>
+                <button type="submit" class="boton-login">INICIAR SESIÓN</button>
+            </form>
+            <div class="enlaces-footer">
+                <a href="">¿No tienes una cuenta?</a>
+                <a href="">¿Olvidaste tu contraseña?</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/login.js"></script>
+</html>
